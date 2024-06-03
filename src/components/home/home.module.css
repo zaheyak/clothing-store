@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+.shop-category {
+    text-align: center;
+    margin: 20px 0;
+}
+.shop-category h2 {
+    margin-bottom: 20px;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.category {
+    margin: 10px;
+    text-align: center;
+}
+.category img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.category p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
