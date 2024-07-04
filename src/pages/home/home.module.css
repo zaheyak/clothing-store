@@ -1,0 +1,64 @@
+/* עיצוב לתמונה הראשית */
+.mainImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 600px;
+  overflow: hidden;
+}
+
+/* עיצוב לתמונה בתוך main-image */
+.mainImage {
+  width: 100%;
+  height: auto;
+}
+
+/* עיצוב לחנות */
+.shopTitle {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+/* עיצוב לתמונות קטגוריות בחנות */
+.categories {
+  display: flex;
+  justify-content: space-around; /* מרכז את התמונות באופן אופטימלי בשורה אחת */
+  gap: 20px; /* מרווח בין התמונות */
+  padding: 20px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 100%; /* גודל קבוע לכל הקטגוריות */
+}
+
+.category img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category:hover {
+  transform: translateY(-5px);
+}
+
+.categoryName {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* עיצוב לרקע */
+body {
+  
+  margin: 0;
+  font-family: Arial, sans-serif;
+}

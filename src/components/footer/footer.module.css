@@ -1,6 +1,13 @@
-p {
-    text-align: center;
-    padding: 20px;
-    background-color: #f8f8f8;
-  font-size: 1rem;
+.line {
+  background-color: #CBBFB3;
+  height: 7px;
+
+}
+
+.footer {
+  margin-bottom: 0%;
+  font-size: 20px;
+  text-align: center;
+  border: 0 0 7px #CBBFB3;
+  background-color: #f8f8f8;
 }

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #f0f0f0;
+  padding: 20px; /* ריפוד כללי */
+}
+
+.card {
+  width: 450px;
+  background: #ffffff;
+
+  padding: 20px; /* ריפוד פנימי לקרט */
+}
+
+.form {
+  padding: 30px;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* מרווח למטה בין הכותרת לטופס */
+}
+
+.card svg {
+  color: rgb(118, 68, 3);
+  margin-right: 10px; /* מרווח ימני לסמל */
+}
+
+.form_heading {
+  font-size: 24px;
+  color: rgb(118, 68, 3);
+  margin-bottom: 10px; /* מרווח למטה לכותרת הטופס */
+}
+
+.field {
+  margin-bottom: 15px; /* מרווח למטה בין שדות הטופס */
+}
+
+.input {
+  border-radius: 5px;
+  background-color: rgb(237, 237, 236);
+  padding: 10px;
+  width: 100%;
+  color: rgb(118, 68, 3);
+  border: 1px solid rgb(118, 68, 3);}

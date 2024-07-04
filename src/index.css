@@ -1,13 +1,210 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#region general
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  
+}
+html {
+  
+   background-color: #fff;
+  font-size: 120%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+
+
+
+body {
+
+	line-height: 1.5; 
+	height: 100vh;
+margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+   background-color: #ffffff;
+}
+
+
+.container {
+	width: 1024px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+li {
+	list-style-type: none;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.active {
+	font-weight: bold;
+	color: red;
+}
+
+#root {
+	height: 100%;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.f-column {
+	flex-direction: column;
+}
+
+
+
+
+
+.aic {
+	align-items: center;
+}
+
+.aie {
+	align-items: flex-end;
+}
+
+.ais {
+	align-items: flex-start;
+}
+
+
+
+.jcc {
+	justify-content: center;
+}
+
+.jce {
+	justify-content: end;
+}
+
+.g1 {
+	gap: 1rem;
+}
+
+.g2 {
+	gap: 2rem;
+}
+
+.g3 {
+	gap: 3rem;
+}
+
+.no-wrap {
+	flex-wrap: nowrap;
+}
+
+.f-wrap {
+	flex-wrap: wrap;
+}
+
+.mt4 {
+	margin-top: 4rem;
+}
+
+.mt3 {
+	margin-top: 3rem;
+}
+
+.mt2 {
+	margin-top: 2rem;
+}
+
+.mt1 {
+	margin-top: 1rem;
+}
+
+.mb4 {
+	margin-bottom: 4rem;
+}
+
+.mb3 {
+	margin-bottom: 3rem;
+}
+
+.mb2 {
+	margin-bottom: 2rem;
+}
+
+.mb1 {
+	margin-bottom: 1rem;
+}
+
+.pt4 {
+	padding-top: 4rem;
+}
+
+.pt3 {
+	padding-top: 3rem;
+}
+
+.pt2 {
+	padding-top: 2rem;
+}
+
+.pt1 {
+	padding-top: 1rem;
+}
+.pb4{
+	padding-bottom: 4rem;
+}
+.pb3{
+padding-bottom: 3rem;
+}
+.pb2{
+padding-bottom: 2rem;
+}
+.pb1{
+padding-bottom: 1rem;
+}
+/* #endregion: general */
+
+
+.header__wrap, .footer__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo a{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.logo img{
+	height: 5rem;
+}
+.logo span{
+	color: rgb(255, 255, 255);
+	font-size: 3rem;
+}
+.menu{
+	display: flex;
+	gap: 1rem;
+}
+.menu li a{
+	color: rgb(255, 255, 255);
 }

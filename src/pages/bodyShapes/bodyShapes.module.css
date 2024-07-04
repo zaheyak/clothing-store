@@ -1,0 +1,59 @@
+.bodyShapeContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+}
+.bodyShapeImage:hover {
+  transform: translateY(-5px);
+}
+.bodyShape {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.bodyShape h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.bodyShape p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.bodyShape img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.bodyShape button {
+  background-color: #CBBFB3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bodyShape button:hover {
+  background-color: #CBBFB3;
+}
+
+@media (max-width: 768px) {
+  .bodyShapeContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
